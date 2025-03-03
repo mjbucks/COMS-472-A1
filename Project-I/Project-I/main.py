@@ -75,4 +75,5 @@ if __name__ == "__main__":
     for id in range(100):
         T = Task(id)
         T.plan_path()
+        T.visualize_path()
         print ("Task ID: %s, Check Path: %s" % (str(id), str(T.check_path())))

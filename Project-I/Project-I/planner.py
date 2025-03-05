@@ -1,3 +1,8 @@
+"""
+Authors: newlin18, mrohrer
+Date: 03/05/2025
+"""
+
 import numpy as np
 from typing import List, Tuple, Optional
 import scipy

@@ -38,16 +38,7 @@ def dfs(grid, start, end):
     return None  # Return None if no path is found
 
 def astar(grid, start, end):
-    """
-    
-    Parameters:
-    - grid: A 2D list where 0 represents walkable cells and 1 represents obstacles
-    - start: A tuple (row, col) representing the starting position
-    - end: A tuple (row, col) representing the goal position
-    
-    Returns:
-    - A list of tuples representing the path from start to end, or None if no path exists
-    """
+    # Initialization
     rows, cols = len(grid), len(grid[0])
     
     # Check if start and end are valid positions
